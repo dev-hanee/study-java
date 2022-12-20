@@ -51,7 +51,8 @@ class Main {
 - 필요한 것은 functional interface 에 포함되어 있는 method 하나 이지만, 이를 구현하기 위해서는 class 부터 instance 생성 코드까지 모두 작성해야 함. 
 - 이는 functional interface 의 목적 및 사용 방법이 명확한데 비해 불필요한 코드를 작성해야 함. 
 - 그래서 클래스 및 함수 이름 등을 제외하고 함수 본체만 사용해서 functional interface 를 사용할 수 있게 함. 이것이 lambda 함수
-/*Lambda 함수에서는 정의만 하고, labmda 함수를 받는 곳에서 이를 사용함. (매개변수 입력 포함)
+
+/*Lambda 함수에서는 정의만 하고, labmda 함수를 받는 곳에서 이를 사용함. (매개변수 입력 포함)*/
 ```
 public interface Printable {
    void print(String);
@@ -59,7 +60,7 @@ public interface Printable {
 
 class Main {
    public static void main() {
-       Print((content) -> System.out.println(content + "from 
+       Print((content) -> System.out.println(content + "from Machine"))
    }
    
    public Print(Printable p) {
