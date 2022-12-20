@@ -52,7 +52,7 @@ class Main {
 - 이는 functional interface 의 목적 및 사용 방법이 명확한데 비해 불필요한 코드를 작성해야 함. 
 - 그래서 클래스 및 함수 이름 등을 제외하고 함수 본체만 사용해서 functional interface 를 사용할 수 있게 함. 이것이 lambda 함수
 
-/*Lambda 함수에서는 정의만 하고, labmda 함수를 받는 곳에서 이를 사용함. (매개변수 입력 포함)*/
+*Lambda 함수에서는 정의만 하고, labmda 함수를 받는 곳에서 이를 사용함. (매개변수 입력 포함)*
 ```
 public interface Printable {
    void print(String);
