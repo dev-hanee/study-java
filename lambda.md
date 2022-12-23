@@ -16,7 +16,7 @@ class Machine implement Printable {
 class Main {
    public static void main() {
      Machine m = new Machine();
-     m.print();
+     m.print("This is content");
    }
 }
 ```
@@ -41,7 +41,7 @@ class Main {
    }
    
    private Print(Printable p) {
-      p.print();
+      p.print("This is content");
    }
 }
 ```
