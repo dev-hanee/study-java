@@ -40,7 +40,7 @@ class Main {
      Print(m);
    }
    
-   public Print(Printable p) {
+   private Print(Printable p) {
       p.print();
    }
 }
@@ -63,7 +63,7 @@ class Main {
        Print((content) -> System.out.println(content + "from Machine"))
    }
    
-   public Print(Printable p) {
+   private Print(Printable p) {
       p.print("This is content");
    }
 }
